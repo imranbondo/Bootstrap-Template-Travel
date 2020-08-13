@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    madrin: 0;
+    box-sizing: border-box;
+}
+
+/* -------------------------------- Hero Block ------------------------------- */
+.section-hero {
+    background-image: relative;
+    height: 100vh;
+    color: #ffffff;
+    background: linear-gradient(274deg, rgb(70, 200, 208), rgb(98, 98, 226) 44%, rgb(201, 98, 247));
+}
+.section-hero__inner-container {
+    height: 100vh;
+}
+/* -------------------------------- Hero Block ------------------------------- */
+
+
+.button {
+    background-color: rgb(2, 204, 186);
+    color: #ffffff;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding: 15px 30px;
+}
+
+.button:hover{
+     text-decoration: none;
+}
+
+.section-about, .para{
+    font-weight: 300;
+    margin-top: 20px;
+    display: block;
+}
+
+.section-work {
+    padding: 50px 0;
+    background-color: #faf4fa;
+}
+
+  
+.section-portfolio {
+    margin: 20px;
+}
+  
+.portfolio-img__img-container {
+    position: relative;
+    padding: 12px 0;
+}
+
+.portfolio-img__img-overlay {
+    background: #ffffff;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+  
+
